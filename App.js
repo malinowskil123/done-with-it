@@ -3,9 +3,11 @@ import { View } from 'react-native'
 import Card from './app/components/Card/Card'
 import WelcomeScreen from './app/screens/WelcomeScreen'
 import ViewImageScreen from './app/screens/ViewImageScreen'
+import ListingDetailsScreen from './app/screens/ListingDetailsScreen'
 
 export default function App() {
-  return <ViewImageScreen />
+  return <ListingDetailsScreen />
+  // return <ViewImageScreen />
   // return <WelcomeScreen />
   // return (
   //   <View
